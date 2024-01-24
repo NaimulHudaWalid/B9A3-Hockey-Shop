@@ -45,6 +45,10 @@
               "line-color": "rgba(19, 19, 24, 0.20)",
               "light-color": "rgba(19, 19, 24, 0.10)",
               "card-color": "rgba(19, 19, 24, 0.50)",
+              "contact-color1": "rgba(188, 237, 109, 0.10)",
+              "contact-color2": "rgba(253, 221, 95, 0.10)",
+              "contact-color3": "rgba(98, 156, 243, 0.10)",
+              "social-color": "rgba(19, 19, 24, 0.03)",
             },
           },
         },
@@ -66,7 +70,7 @@
     </style>
   </head>
 
-  <body class="font-manrope">
+  <body class="font-manrope ">
     <header class="contain">
       <!-- Navbar section -->
       <nav>
@@ -867,7 +871,7 @@
           </p>
         </div>
 
-        <div class="clients-container contain flex sm:flex-col lg:flex-row gap-10 sm:mt-6 lg:mt-12 sm:p-6 lg:p-8 border border-light-color rounded-2xl mb-10">
+        <div class="clients-container contain flex sm:flex-col lg:flex-row gap-10 sm:mt-6 lg:mt-12 sm:p-6 lg:p-8 border border-light-color rounded-2xl ">
             <img src="images/11.png" alt="" class="flex-1">
 
             <div class="accrodion flex-1">
@@ -929,7 +933,122 @@
             </div>
 
         </div>
+      </section>
       <!-- Get in touch section -->
+      <section class="px-2 mt-[100px]">
+        <div
+          class="contain text-center mt-[50px] border-t border-b border-dashed border-line-color"
+        >
+          <h2
+            class="sm:text-[22px] lg:text-4xl sm:w-[80%] mx-auto text-theme-font-color sm:mt-6 lg:mt-8 font-extrabold"
+          >
+          Get In Touch
+          </h2>
+          <p
+            class="sm:text-sm lg:text-base text-p-black sm:w-[80%] lg:w-2/3 mx-auto sm:mt-4 lg:mt-6 sm:mb-6 lg:mb-8"
+          >
+          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <div class="info-container contain mt-12 grid sm:grid-cols-1 lg:grid-cols-12  lg:gap-6">
+
+
+            <div class="info-left bg-white flex flex-col gap-6 py-6 border border-light-color rounded-2xl lg:col-span-4 ">
+
+
+                <div class="card sm:w-[90%] lg:w-80 mx-auto p-6 bg-contact-color1 text-primary-content">
+                    <div class="card-body ">
+                        <img src="images/Group 1171275317.png" alt="" class="w-12 lg:mb-6">
+                      
+                      <p class="text-base font-normal leading-[32px] text-p-black" >Phone Number :</p>
+                      <h4 class="text-lg text-theme-font-color font-extrabold leading-[32px]"> (+62) 123-321-543</h4>
+                      
+                    </div>
+                  </div>
+
+                  <div class="card sm:w-[90%] lg:w-80 mx-auto p-6 bg-contact-color2 text-primary-content">
+                    <div class="card-body lg:pl-8">
+                        <img src="images/Group 1171275318.png" alt="" class="w-12 lg:mb-6">
+                      
+                      <p class="text-base font-normal leading-[32px] text-p-black" >Email :</p>
+                      <h4 class="text-lg text-theme-font-color font-extrabold leading-[32px]"> hockeys@support.com</h4>
+                      
+                    </div>
+                  </div>
+
+                  <div class="card sm:w-[90%] lg:w-80 mx-auto p-6 bg-contact-color3  text-primary-content">
+                    <div class="card-body lg:pl-8">
+                        <img src="images/Group 1171275321.png" alt="" class="w-12 lg:mb-6">
+                      
+                      <p class="text-base font-normal leading-[32px] text-p-black" >Location :</p>
+                      <h4 class="text-lg text-theme-font-color font-extrabold leading-[32px]"> 152/1 Mohakhali Wireless Gate</h4>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="info-right lg:col-span-8 ">
+
+                <form  class="grid sm:grid-cols-1 sm:mt-8 lg:grid-cols-12 lg:gap-6 ">
+                    <label class="form-control w-full max-w-s sm:col-span-12 lg:col-span-6 ">
+                        <div class="label">
+                          <span class="label-text text-xl font-bold text-theme-font-color">Your Name</span>
+                         
+                        </div>
+                        <input type="text" placeholder="Enter your full name" class="input input-bordered w-full max-w-s h-16 mt-4 mb-6 " />
+                      </label>
+                      <label class="form-control w-full max-w-s sm:col-span-12 lg:col-span-6 ">
+                        <div class="label">
+                          <span class="label-text text-xl font-bold text-theme-font-color">Your Email</span>
+                         
+                        </div>
+                        <input type="email" placeholder="Enter your email" class="input input-bordered w-full max-w-s h-16 mt-4 mb-6" />
+                      </label>
+                      <label class="form-control w-full max-w-s sm:col-span-12 lg:col-span-6 ">
+                        <div class="label">
+                          <span class="label-text text-xl font-bold text-theme-font-color">Subject</span>
+                         
+                        </div>
+                        <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-s h-16 mt-4 mb-6" />
+                      </label>
+                      <label class="form-control w-full max-w-s sm:col-span-12 lg:col-span-6 ">
+                        <div class="label">
+                          <span class="label-text text-xl font-bold text-theme-font-color">Phone Number</span>
+                         
+                        </div>
+                        <input type="tel" placeholder="Enter your phone number" class="input input-bordered w-full max-w-s h-16 mt-4 mb-6" />
+                      </label>
+
+
+                      <label class="form-control col-span-12  "> 
+                        <div class="label">
+                          <span class="label-text text-xl font-bold text-theme-font-color">Message
+                        </span>
+                        
+                        </div>
+                        <textarea class="textarea textarea-bordered sm:h-[200px] lg:h-[370px] mt-4 mb-8" placeholder="Write your message"></textarea>
+                        
+                      </label>
+                      <input class="col-span-12 text-xl font-bold  bg-theme-color btn text-white mt-6 h-16" type="submit" value="Send Message">
+                </form>
+            </div>
+
+
+
+            <div class="info-bottom sm:mt-8 lg:col-span-12 bg-social-color text-theme-font-color">
+                <div class="social-media col-span-12 flex flex-col justify-center items-center">
+                    <h4 class="mt-9 mb-6 text-2xl font-extrabold">Social Media</h4>
+                    <div class="social-links mb-9 text-3xl ">
+                    <a href="#"><i class="fa-brands fa-twitter pr-6"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f pr-6"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram pr-6"></i></a>
+                    <a href="#"><i class="fa-brands fa-github pr-6"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
